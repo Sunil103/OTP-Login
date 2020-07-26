@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    android:touchscreenBlocksFocus="true"
+    tools:context=".pay">
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAYMENT"
+        android:textColor="#ffff"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110dp"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User ID :"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_marginTop="-25dp"
+        android:layoutDirection="ltr"
+        android:text="12345678912"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From :"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"/>
+
+
+    <TextView
+
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_marginTop="-25dp"
+        android:layoutDirection="ltr"
+        android:text="Magadi Road"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To :"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"/>
+
+
+    <TextView
+
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_marginTop="-25dp"
+        android:layoutDirection="ltr"
+        android:text="Vijayanagar"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+       android:layout_marginLeft="150dp"
+        android:layout_marginTop="75dp"/>
+
+    <TextView
+        android:id="@+id/amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:textColor="#ffff"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="175dp"/>
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/button_rounded2"
+        android:text="PAY"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.905"
+        tools:ignore="MissingConstraints"></Button>
+
+</LinearLayout>
+</ScrollView>

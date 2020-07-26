@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details"
+    android:background="@drawable/back3">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:text="
+In our day to day life we travel in different mode of transportations, it may be public, private or personal transportation. We face major issues in public transportation related to travelling tickets. There are different types of travel tickets introduced, for example in Bus we have normal ticket, weekly pass, and monthly pass etc. If we consider Metro then we have token system and smart cards which is not enough as of now. We see a long queue near the ticket counter and there will be problems of tendering the exact change etc. This project’s main goal is to resolve all the problems related to the ticketing process in Metro Transportation.
+
+This project is aimed to build and android application which will have all the details about the metro stations and fares between any source stations to destination station. A QR code will be present in each and every metro station, the passenger have to just scan the code in both source and destination station using the application and he will be redirected to the payments app later. Once the payment is done he can use the app to travel again. Passenger can travel between any stations using this friendly app, which will save his time and helps him travel hazel free.
+
+The Digital era has to be taken advantage of and should be implemented wherever possible and travelling digitally is the main expected outcome of this project. This can be experimented in a real world scenario and can be improved by the experimental outcome. The enhancement or advancement of this project is to expand it to other modes of transportations."
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:textStyle="italic"></TextView>
+</ScrollView>

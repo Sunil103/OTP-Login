@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffff</color>
+    <color name="colorPrimaryDark">#ffff</color>
+    <color name="colorAccent">#ffff</color>
+
+    <color name="start">#4c84ff</color>
+    <color name="end">#18a3fe</color>
+
+    <color name="tab_grey">#c0c0c0</color>
+    <color name="intro_title">#000000</color>
+    <color name="intro_description">#656565</color>
+
+
+
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@drawable/back3"
+    android:orientation="vertical"
+    tools:context=".credit">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp"
+    android:orientation="vertical">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:textColorHint="@color/lightgray"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/cardno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#EDE2E2"
+            android:ems="10"
+            android:hint="CARD NUMBER"
+            android:inputType="text"
+            android:textColor="#ECE5E5"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FBF6F6"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:textColorHint="@color/lightgray"
+        android:focusableInTouchMode="true"
+        >
+
+        <EditText
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#EDE2E2"
+            android:ems="10"
+            android:hint="CARD TYPE"
+            android:inputType="text"
+            android:textColor="#FAF7F7"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:textColorHint="@color/lightgray"
+        android:focusableInTouchMode="true"
+        >
+
+        <EditText
+            android:id="@+id/expiry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#EDE2E2"
+            android:ems="10"
+            android:hint="Expiry date"
+            android:inputType="text"
+            android:textColor="#FDF9F9"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="SUBMIT"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_rounded"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="BACK"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_rounded2"
+        android:layout_marginTop="40dp"
+        android:onClick="btn_creditback"/>
+</LinearLayout>
+</ScrollView>

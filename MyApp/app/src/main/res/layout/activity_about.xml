@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".about">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:text="CEO: SUNIL KUMAR S H"
+        android:textColor="@color/lightgray"
+        android:textSize="35dp"
+        android:textStyle="bold"></TextView>
+
+
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:text="MD : POORNACHANDRA C M"
+        android:textColor="@color/lightgray"
+        android:textSize="28dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:text="INVESTOR: SUCHETA SHREERAM BHAT"
+        android:textColor="@color/lightgray"
+        android:textSize="28dp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:text="CANTEEN: VIDYA SHANBHAG"
+        android:textColor="@color/lightgray"
+        android:textSize="28dp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:text="CLEANING: SAMSKRIUTHI PATIL"
+        android:textColor="@color/lightgray"
+        android:textSize="28dp"
+        android:textStyle="bold"></TextView>
+
+
+</LinearLayout>
+</ScrollView>

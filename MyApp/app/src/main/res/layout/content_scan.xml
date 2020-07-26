@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".scan"
+    tools:showIn="@layout/app_bar_scan">
+
+    <FrameLayout
+        android:background="@drawable/back3"
+
+        android:id="@+id/screen_area"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/button_rounded2"
+        android:text="SOURCE"
+        android:textColor="#ffff"
+        android:textSize="22sp"></Button>
+
+
+
+    <Button
+        android:layout_marginLeft="50dp"
+        android:id="@+id/scan2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button_rounded"
+        android:text="DESTINATION"
+        android:textColor="#ffff"
+        android:textSize="22sp"></Button>
+
+
+
+</RelativeLayout>

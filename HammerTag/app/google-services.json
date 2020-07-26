@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1019906340031",
+    "firebase_url": "https://hammertag-5475a.firebaseio.com",
+    "project_id": "hammertag-5475a",
+    "storage_bucket": "hammertag-5475a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019906340031:android:9aa0ef5050635e9860020a",
+        "android_client_info": {
+          "package_name": "com.example.hammertag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019906340031-ip75r1irafqm25hnquccufo0vik01rdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hammertag",
+            "certificate_hash": "7e47dbe70d7687b37394cc1782379ece1c4f9dd1"
+          }
+        },
+        {
+          "client_id": "1019906340031-2ds85q8sl3onomrl0ebim4f86vp8cku6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGyr47NMEehfOrN2EcKVbYxZ4NUmc6gas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019906340031-2ds85q8sl3onomrl0ebim4f86vp8cku6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

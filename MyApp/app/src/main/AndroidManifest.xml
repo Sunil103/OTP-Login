@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/SmartTicketing"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Loginpage"></activity>
+        <activity android:name=".Wallet" />
+        <activity android:name=".pay" />
+        <activity android:name=".scancode" />
+        <activity android:name=".destscan" />
+        <activity
+            android:name=".scan"
+            android:label="@string/title_activity_scan"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <uses-library
+            android:name="org.apache.http.lrgacy"
+            android:required="false" />
+
+        <activity android:name=".signup" />
+        <activity android:name=".payment" />
+        <activity android:name=".login" />
+        <activity android:name=".details" />
+        <activity android:name=".debit" />
+        <activity android:name=".credit" />
+        <activity android:name=".contact" />
+        <activity android:name=".about" />
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
